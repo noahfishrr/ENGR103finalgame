@@ -10,6 +10,8 @@ This game is like golf - you want to get as low a score as possible.
 The serial monitor will start by outputting level 1. Get ready! This means the game is about to begin.
 A color is shown for 5 seconds the board will beep for each second the color is shown, in a descending scale. The color is cleared.
 
+To submit your score, press both buttons. 
+
 The right button increases the green value by a small increment until the value is 170, then it resets to 0. 255 is too white and not discernable from any other color; the game would be near impossible if it asked you to match pure white. 
 If the switch is on, the left button increases the blue led. If it's off, the left button increases the red led. 
 If the circuit board is shaken, all values get reset to 0 (board is cleared, etch-a-sketch style). 
